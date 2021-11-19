@@ -6,7 +6,7 @@ export default class Navigation extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
         <div className="container">
-          <Link to="/PsicologiaCarlos/PostCard" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             <i className="material-icons">
               assignment </i> Psicologia
           </Link>
@@ -16,13 +16,13 @@ export default class Navigation extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link to="/PsicologiaCarlos/PostCard" className="nav-link">Posts</Link>
+                <Link to="/PostCard" className="nav-link">Posts</Link>
               </li>
               <li className="nav-item">
-                <Link to="/PsicologiaCarlos/create" className="nav-link">Create Post</Link>
+                <Link to="/create" className="nav-link">Create Post</Link>
               </li>
               {/* <li className="nav-item">
-                <Link to="/PsicologiaCarlos/user" className="nav-link">Create User</Link>
+                <Link to="/user" className="nav-link">Create User</Link>
               </li> */}
             </ul>
           </div>

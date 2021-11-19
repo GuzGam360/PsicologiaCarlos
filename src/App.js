@@ -17,13 +17,13 @@ function App() {
       <Navigation />
 
       <div className="container p-4">
-        <Route path="/PsicologiaCarlos" component={NotesList} />
-        <Route path="/PsicologiaCarlos/edit/:id" component={CreateNote} />
-        <Route path="/PsicologiaCarlos/create" component={CreateNote} />
-        <Route path="/PsicologiaCarlos/PostCard" component={PostCard} />
-        <Route path="/PsicologiaCarlos/PostContent" component={PostContent} />
+        <Route path="/" exact component={NotesList} />
+        <Route path="/edit/:id" component={CreateNote} />
+        <Route path="/create" component={CreateNote} />
+        <Route path="/PostCard" component={PostCard} />
+        <Route path="/PostContent" component={PostContent} />
         {/* <Route path="/user" component={CreateUser} /> */}
-        <Redirect to='/PsicologiaCarlos' />
+        <Redirect to='/' />
       </div>
     </HashRouter>
   );

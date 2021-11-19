@@ -11,7 +11,7 @@ function PostCard() {
         <p className="card-text">Some quick example text to build</p>
       </div>
 
-      <Link to="/PsicologiaCarlos/PostContent" className="ButtonGoToPost">
+      <Link to="/PostContent" className="ButtonGoToPost">
         <button type="button" class="btn btn-primary btn-lg ms-3 mb-3">Go to Post</button>
       </Link>
 
