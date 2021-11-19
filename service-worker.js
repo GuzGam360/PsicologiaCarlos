@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PsicologiaCarlos/precache-manifest.aa40b17d5d906b0f7d50be255a4ce592.js"
+  "/PsicologiaCarlos/precache-manifest.aa3667fdba5ddf8b5ec2fd10c23e8ee7.js"
 );
 
 self.addEventListener('message', (event) => {
